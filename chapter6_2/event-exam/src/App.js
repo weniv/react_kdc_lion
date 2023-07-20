@@ -10,7 +10,6 @@ function App() {
 
   // 로그인 상태
   const [login, setLogin] = useState(false);
-  const [modalShow, setModalShow] = useState(false);
 
   return (
     <>
