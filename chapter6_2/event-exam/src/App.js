@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       {login ? <HomePage /> : <Login infoUser={user} setLogin={setLogin} />}
-      {modalShow && { Modal }}
+
     </>
   )
 
